@@ -17,7 +17,7 @@ This tool is a port scanner written in Rust, providing the capability to scan in
 Clone the repository and build the project:
 ```bash
 git clone https://github.com/ahmetskulekci/rs-scan.git
-cd rust-port-scanner
+cd rs-scan
 
 cargo build --release
 ```
