@@ -32,16 +32,16 @@ To scan a single port:
 ```
 To scan a range of ports:
 ```bash
-./target/release/rust_port_scanner IP_ADDRESS START_PORT END_PORT
+./target/release/rs-scan IP_ADDRESS START_PORT END_PORT
 ```
 
 ##Examples
 Scan port 80 on IP address 192.168.1.1:
 ```bash
-./target/release/rust_port_scanner 192.168.1.1 80
+./target/release/rs-scan 192.168.1.1 80
 ```
 
 Scan ports 1 through 100 on IP address 192.168.1.1:
 ```bash
-./target/release/rust_port_scanner 192.168.1.1 1 100
+./target/release/rs-scan 192.168.1.1 1 100
 ```
